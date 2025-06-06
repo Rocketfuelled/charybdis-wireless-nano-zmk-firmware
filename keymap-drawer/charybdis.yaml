@@ -36,6 +36,7 @@ layers:
   - BACK SPACE
   - TAB
   - {t: ENTER, h: Numbers}
+  - ''
   Numbers:
   - ''
   - F7
@@ -72,6 +73,7 @@ layers:
   - DEL
   - ''
   - {type: held}
+  - ''
   Symbols:
   - ''
   - '{'
@@ -108,6 +110,7 @@ layers:
   - ''
   - ''
   - '='
+  - ''
   Navigation:
   - ''
   - ''
@@ -140,6 +143,7 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -180,6 +184,7 @@ layers:
   - '&mkp MB3'
   - BACK
   - FWD
+  - ''
   Snipe:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -216,6 +221,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
   Drag:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -252,6 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ''
 combos:
 - p: [2, 7]
   k: CAPS WORD
