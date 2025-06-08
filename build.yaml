@@ -28,7 +28,8 @@ include:
     shield: charybdis_right
     keymap: qwerty
     format: bt
-    snippet: studio-rpc-usb-uart
+    #snippet: studio-rpc-usb-uart
+    snippet: zmk-usb-logging
 
   # QWERTY Dongle
 #  - board: nice_nano_v2
