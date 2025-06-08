@@ -54,3 +54,6 @@ include:
 #  - board: seeeduino_xiao_ble
 #    shield: settings_reset
 #    format: reset
+
+  - board: nice_nano_v2 # Replace with the Pro Micro-compatible board you're using
+    shield: tester_pro_micro
