@@ -271,10 +271,10 @@
 
         System {
             bindings = <
-  &trans  &trans  &trans  &trans  &trans    &trans      &trans            &trans             &trans           &trans
-  &trans  &trans  &trans  &trans  &trans    &trans      &kp C_PREVIOUS    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT
-  &trans  &trans  &trans  &trans  &trans    &trans      &trans            &trans             &trans           &trans
-                  &trans  &trans  &trans    &kp C_STOP  &kp C_PLAY_PAUSE  &kp K_MUTE
+  &trans            &trans            &trans            &trans            &trans    &trans      &trans            &trans             &trans           &trans
+  &kp LG(NUMBER_4)  &kp LG(NUMBER_3)  &kp LG(NUMBER_2)  &kp LG(NUMBER_1)  &trans    &trans      &kp C_PREVIOUS    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT
+  &trans            &trans            &trans            &trans            &trans    &trans      &trans            &trans             &trans           &trans
+                                      &trans            &trans            &trans    &kp C_STOP  &kp C_PLAY_PAUSE  &kp K_MUTE
             >;
         };
 
@@ -302,6 +302,15 @@
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
                   &trans  &trans  &trans    &trans  &trans  &none
+            >;
+        };
+
+        Gaming {
+            bindings = <
+  &kp T   &kp Q   &kp W   &kp E   &kp R     &trans  &trans  &trans  &trans  &trans
+  &kp G   &kp A   &kp S   &kp D   &kp F     &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
