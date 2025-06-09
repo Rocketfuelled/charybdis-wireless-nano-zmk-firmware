@@ -33,7 +33,7 @@ layers:
   - {t: /, h: Mouse}
   - {t: ESC, h: Navigation}
   - {t: SPACE, h: Navigation}
-  - TAB
+  - {t: TAB, h: System}
   - {t: ENTER, h: Symbols}
   - {t: BACK SPACE, h: Numbers}
   - {t: DELETE, h: Functions}
@@ -81,35 +81,35 @@ layers:
   - (
   - ''
   - ''
-  - '&'
-  - '*'
-  - +
-  - '~'
+  - ''
+  - ''
+  - ''
+  - ''
   - ;
   - $
   - '%'
   - ^
   - +
   - ''
-  - $
-  - '%'
-  - ^
-  - '-'
+  - RIGHT SHIFT
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT GUI
   - '~'
   - '!'
-  - '@'
+  - '&insert_email'
   - '#'
   - '|'
   - ''
-  - '!'
-  - '@'
-  - '#'
-  - _
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - {t: ▽, type: trans}
   - ''
   - {type: held}
-  - '='
+  - ''
   - ''
   Functions:
   - {t: ▽, type: trans}
@@ -159,20 +159,20 @@ layers:
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
   - '&msc SCRL_RIGHT'
-  - LEFT
-  - UP
-  - DOWN
-  - RIGHT
+  - LEFT GUI
+  - LEFT ALT
+  - LEFT CONTROL
+  - LEFT SHIFT
   - ''
   - CAPS WORD
   - LEFT
   - DOWN ARROW
   - UP ARROW
   - RIGHT
-  - HOME
-  - PG UP
-  - PG DN
-  - END
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - HOME
@@ -185,6 +185,43 @@ layers:
   - ''
   - ''
   - ''
+  System:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - PREVIOUS
+  - VOLUME DOWN
+  - VOLUME UP
+  - NEXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - STOP
+  - PLAY PAUSE
+  - MUTE
   Mouse:
   - ''
   - ''
