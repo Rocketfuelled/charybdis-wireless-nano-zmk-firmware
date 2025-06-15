@@ -1,7 +1,7 @@
 #include "charybdis.dtsi"
 #include "charybdis_pmw3610.dtsi"
+#include <dt-bindings/zmk/input_transform.h>
 
-// The matrix transform is 5 columns over because the left half is 5 columns wide.
 &default_transform {
 	col-offset = <5>;
 };
