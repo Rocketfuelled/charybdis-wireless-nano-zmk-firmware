@@ -8,11 +8,6 @@
 #include <input/processors.dtsi>
 
 / {
-    trackball_listener {
-        compatible = "zmk,input-listener";
-        device = <&trackball_split>;
-    };
-
     behaviors {
         hl: homewrow_mods_left {
             compatible = "zmk,behavior-hold-tap";

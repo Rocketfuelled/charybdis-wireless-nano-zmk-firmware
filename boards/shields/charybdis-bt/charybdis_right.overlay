@@ -33,6 +33,7 @@
     status = "okay";
 };
 
-&trackball_split {
-	device = <&trackball>;
+&glidepoint_listener {
+    status = "okay";
+    device = <&trackball>;
 };
