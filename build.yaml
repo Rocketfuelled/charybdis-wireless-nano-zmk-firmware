@@ -9,8 +9,6 @@ include:
     shield: charybdis_right
     keymap: qwerty
     format: bt
-    snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_ZMK_STUDIO=y  
 
   # QWERTY Dongle
 #  - board: nice_nano_v2
