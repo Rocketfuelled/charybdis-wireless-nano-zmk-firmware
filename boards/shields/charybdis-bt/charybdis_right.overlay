@@ -34,13 +34,8 @@
 };
 
 / {
-	vtrackball: virtual_input_trackball {
-		compatible = "zmk,virtual-input";
-	};
-
-	input_relay_config_trackball {
-		compatible = "zmk,split-peripheral-input-relay";
+	trackball_listener {
+		compatible = "zmk,input-listener";
 		device = <&trackball>;
-		relay-channel = <111>;
 	};
 };
